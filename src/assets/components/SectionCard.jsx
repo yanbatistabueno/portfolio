@@ -19,11 +19,11 @@ function SectionCard() {
         <p>yanbatista2704@gmail.com</p>
       </div>
       <div className="section-containers">
-        <img src="../public/src/home/whatsApp-icon.png" />
+        <img src="src/home/whatsApp-icon.png" />
         <p>(11) 99172-3486</p>
       </div>
       <div className="section-containers">
-        <img src="../public/src/home/mapPointer-icon.png" />
+        <img src="src/home/mapPointer-icon.png" />
         <p>{t("Brazil - São Paulo")}</p>
       </div>
       <div className="section-containers">
