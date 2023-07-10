@@ -29,7 +29,7 @@ function SectionCard() {
       <div className="section-containers">
         <button>
           <a href="https://github.com/yanbatistabueno" target="_blank">
-            <img src="../public/src/home/git-icon.png" alt="" />
+            <img src="src/home/git-icon.png" alt="" />
           </a>
         </button>
       </div>
