@@ -1,0 +1,47 @@
+section h2 {
+  color: #242424;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+section img {
+  width: 30px;
+}
+
+section p {
+  font-size: 1.1rem;
+  max-width: 30ch;
+}
+
+.section-containers {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+section button {
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border: none;
+}
+
+section button:hover {
+  border: none;
+}
+
+section button img {
+  width: 40px;
+}
+
+@media (max-width: 729px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

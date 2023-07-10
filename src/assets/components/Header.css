@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #242424;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  padding: 0px 40px;
+  position: relative;
+  z-index: 99999;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.15s;
+  font-size: 18px;
+  font-size: 1.3rem;
+  color: #242424;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #747bff;
+}
+
+.site-title {
+  font-size: 1.7rem;
+  transition: transform 0.15s;
+}
+
+.site-title:hover {
+  transform: scale(90%);
+  color: #242424;
+}
+
+.hamburguer-button {
+  z-index: 9;
+}
+
+button {
+  background-color: transparent;
+
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+button img {
+  width: 40px;
+}
+
+.language-buttons {
+  width: 30px;
+  cursor: pointer;
+  transition: transform ease-in-out 0.15s;
+}
+
+.language-buttons:hover {
+  transform: scale(110%);
+}
+
+.languages-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 729px) {
+  nav {
+    position: fixed;
+    flex-direction: column;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .language-buttons {
+    width: 60px;
+  }
+}

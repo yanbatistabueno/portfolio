@@ -1,0 +1,19 @@
+main {
+  text-align: left;
+  display: flex;
+  flex-direction: flex;
+  align-items: self-start;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-top: 100px;
+}
+
+@media (max-width: 729px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

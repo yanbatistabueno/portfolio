@@ -1,0 +1,57 @@
+.hero-container {
+  padding: 20px;
+  border-color: #5e5e5e;
+  border-radius: 20px;
+  border-width: 3px;
+  border-style: solid;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  width: 50%;
+  max-width: 300px;
+}
+
+.my-photo {
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+h1 {
+  color: #242424;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+h1 img {
+  width: 50px;
+}
+
+p {
+  color: #505050;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 729px) {
+  .hero-container {
+    width: 90%;
+  }
+  h1 {
+    font-size: calc(100% + 5vw);
+  }
+  .my-photo {
+    width: 100%;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
