@@ -35,26 +35,30 @@ function Header(props) {
       )}
 
       <nav style={styles}>
-        <a onClick={props.click}>Home</a>
-        <a onClick={props.click} href="#about-container">
-          {t("About")}
-        </a>
-        <a>{t("Projects")}</a>
-        <div className="languages-container">
-          <img
-            className="language-buttons"
-            name="pt-BR"
-            onClick={mudarIdioma}
-            src="src/home/br-flag.png"
-          />
+        {props.navVisibility && <a onClick={props.click}>Home</a>}
+        {props.navVisibility && (
+          <a onClick={props.click} href="#about-container">
+            {t("About")}
+          </a>
+        )}
+        {props.navVisibility && <a>{t("Projects")}</a>}
+        {props.navVisibility && (
+          <div className="languages-container">
+            <img
+              className="language-buttons"
+              name="pt-BR"
+              onClick={mudarIdioma}
+              src="src/home/br-flag.png"
+            />
 
-          <img
-            className="language-buttons"
-            name="en"
-            onClick={mudarIdioma}
-            src="src/home/us-flag.png"
-          />
-        </div>
+            <img
+              className="language-buttons"
+              name="en"
+              onClick={mudarIdioma}
+              src="src/home/us-flag.png"
+            />
+          </div>
+        )}
       </nav>
     </header>
   );
