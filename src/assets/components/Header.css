@@ -38,11 +38,13 @@ a:hover {
 .site-title {
   font-size: 1.7rem;
   transition: transform 0.15s;
+  color: #242424;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .site-title:hover {
   transform: scale(90%);
-  color: #242424;
 }
 
 .hamburguer-button {
