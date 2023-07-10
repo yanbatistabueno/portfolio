@@ -6,7 +6,7 @@ function About() {
   const { t, i18n } = useTranslation();
   return (
     <div id="about-container" className="about-container">
-      <img src="../public/src/home/laptop-image.jpg" alt="" />
+      <img src="src/home/laptop-image.jpg" alt="" />
       <div className="about-container-text">
         <h3>{t("ABOUT ME")}</h3>
         <h2>

@@ -6,16 +6,16 @@ function SectionCard() {
     <section>
       <h2>{t("Languages")}</h2>
       <div className="section-containers">
-        <img src="../public/src/home/us-flag.png" />
+        <img src="src/home/us-flag.png" />
         <p>{t("EN Fluent")}</p>
       </div>
       <div className="section-containers">
-        <img src="../public/src/home/br-flag.png" />
+        <img src="src/home/br-flag.png" />
         <p>{t("PT-BR Native Speaker")}</p>
       </div>
       <h2>{t("Contact Me")}</h2>
       <div className="section-containers">
-        <img src="../public/src/home/email-icon.png" />
+        <img src="src/home/email-icon.png" />
         <p>yanbatista2704@gmail.com</p>
       </div>
       <div className="section-containers">

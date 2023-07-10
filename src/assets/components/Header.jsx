@@ -26,7 +26,7 @@ function Header(props) {
       {props.visible && (
         <button className="hamburguer-button" onClick={props.click}>
           <img
-            src={`../public/src/home/${
+            src={`src/home/${
               props.navVisibility ? `close-menu.png` : `hamburguer-menu.png`
             }`}
             alt=""
@@ -52,7 +52,7 @@ function Header(props) {
             className="language-buttons"
             name="en"
             onClick={mudarIdioma}
-            src="../public/src/home/us-flag.png"
+            src="src/home/us-flag.png"
           />
         </div>
       </nav>
