@@ -45,7 +45,7 @@ function Header(props) {
             className="language-buttons"
             name="pt-BR"
             onClick={mudarIdioma}
-            src="../public/src/home/br-flag.png"
+            src="src/home/br-flag.png"
           />
 
           <img
