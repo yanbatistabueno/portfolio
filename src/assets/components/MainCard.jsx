@@ -4,8 +4,8 @@ import SectionCard from "./SectionCard";
 function MainCard() {
   return (
     <main id="main">
-      <HeroCard />
-      <SectionCard />
+      <HeroCard data={"scale-in"} />
+      <SectionCard data={"scale-out"} />
     </main>
   );
 }

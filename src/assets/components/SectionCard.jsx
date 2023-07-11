@@ -1,9 +1,9 @@
 import "./SectionCard.css";
 import { useTranslation } from "react-i18next";
-function SectionCard() {
+function SectionCard(props) {
   const { t, i18n } = useTranslation();
   return (
-    <section>
+    <section data-inviewport={props.data}>
       <h2>{t("Languages")}</h2>
       <div className="section-containers">
         <img src="src/home/us-flag.png" />

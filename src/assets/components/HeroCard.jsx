@@ -1,10 +1,14 @@
 import "./HeroCard.css";
 import LinksButton from "./LinksButton";
 import { useTranslation } from "react-i18next";
-function HeroCard() {
+function HeroCard(props) {
   const { t, i18n } = useTranslation();
   return (
-    <div id="hero-container" className="hero-container">
+    <div
+      data-inviewport={props.data}
+      id="hero-container"
+      className="hero-container"
+    >
       <div className="text-container">
         <h1>
           {t("Hi, I'm Yan!")}{" "}
@@ -14,10 +18,10 @@ function HeroCard() {
       </div>
       <img className="my-photo" src="src/home/my-photo.jpg" />
       <div className="links">
-        <LinksButton image="src/home/html-icon.png" />
-        <LinksButton image="src/home/css-icon.png" />
-        <LinksButton image="src/home/js-icon.png" />
-        <LinksButton image="src/home/react-icon.png" />
+        <LinksButton name="HTML" image="src/home/html-icon.png" />
+        <LinksButton name="CSS" image="src/home/css-icon.png" />
+        <LinksButton name="JavaScript" image="src/home/js-icon.png" />
+        <LinksButton name="React" image="src/home/react-icon.png" />
       </div>
     </div>
   );

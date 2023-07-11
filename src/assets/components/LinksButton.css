@@ -11,11 +11,30 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  transition: box-shadow ease-in 0.15s, transform ease-in-out 0.3s;
+  transition: box-shadow ease-in 0.15s, transform ease-out 0.3s,
+    background-color ease-in-out 0.15s;
+  position: relative;
 }
 .links-icon:hover {
   box-shadow: 0px 0px 0px;
   transform: translateY(10%);
+  background-color: #242424;
+}
+
+.links-icon:hover .link-name {
+  opacity: 1;
+}
+
+.link-name {
+  content: "";
+  padding: 5px;
+  position: absolute;
+  background-color: #242424;
+  border-radius: 10px;
+  top: -37px;
+  color: white;
+  opacity: 0;
+  transition: opacity ease-out 0.3s;
 }
 
 .links-icon img {

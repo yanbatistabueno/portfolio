@@ -41,6 +41,12 @@ p {
   margin-top: 20px;
 }
 
+.hero-container hr {
+  width: 100%;
+  height: 2px;
+  background-color: #242424;
+}
+
 @media (max-width: 729px) {
   .hero-container {
     width: 90%;

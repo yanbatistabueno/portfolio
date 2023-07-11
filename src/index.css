@@ -14,3 +14,43 @@
 button {
   border: none;
 }
+
+/* inViewport */
+
+[data-inviewport="scale-in"] {
+  transition: 2s;
+  transform: translateX(-140%);
+  transition: transform ease-in-out 0.5s;
+}
+[data-inviewport="scale-in"].is-inViewport {
+  transform: translateX(0%);
+}
+
+[data-inviewport="scale-out"] {
+  transition: 2s;
+  transform: translateX(160%);
+  transition: transform ease-in-out 0.5s;
+}
+[data-inviewport="scale-out"].is-inViewport {
+  transform: translateX(0%);
+}
+
+@media (max-width: 729px) {
+  [data-inviewport="scale-in"] {
+    transition: 2s;
+    transform: translateX(-100%);
+    transition: transform ease-in-out 0.5s;
+  }
+  [data-inviewport="scale-in"].is-inViewport {
+    transform: translateX(0%);
+  }
+
+  [data-inviewport="scale-out"] {
+    transition: 2s;
+    transform: translateX(100%);
+    transition: transform ease-in-out 0.5s;
+  }
+  [data-inviewport="scale-out"].is-inViewport {
+    transform: translateX(0%);
+  }
+}

@@ -24,6 +24,26 @@ function App() {
       window.scrollTo(0, 0);
     }
   }
+
+  function viewPort() {
+    const inViewport = (entries, observer) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle("is-inViewport", entry.isIntersecting);
+      });
+    };
+
+    const Obs = new IntersectionObserver(inViewport);
+    const obsOptions = {}; //See: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options
+
+    // Attach observer to every [data-inviewport] element:
+    const ELs_inViewport = document.querySelectorAll("[data-inviewport]");
+    ELs_inViewport.forEach((EL) => {
+      Obs.observe(EL, obsOptions);
+    });
+  }
+
+  viewPort();
+
   useEffect(() => {
     if (window.matchMedia("(max-width: 729px)").matches) {
       setVisibility(true);
@@ -54,6 +74,8 @@ function App() {
           visible={visibiility}
         />
         <MainCard />
+        <About />
+        <About />
         <About />
         <Language />
       </Suspense>
