@@ -75,8 +75,6 @@ function App() {
         />
         <MainCard />
         <About />
-        <About />
-        <About />
         <Language />
       </Suspense>
     </>
