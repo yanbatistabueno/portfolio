@@ -5,7 +5,7 @@ function HeroCard(props) {
   const { t, i18n } = useTranslation();
   return (
     <div
-      data-inviewport={props.data}
+      data-inviewport={"scale-in"}
       id="hero-container"
       className="hero-container"
     >

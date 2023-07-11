@@ -1,11 +1,11 @@
 import "./MainCard.css";
 import HeroCard from "./HeroCard";
 import SectionCard from "./SectionCard";
-function MainCard() {
+function MainCard(props) {
   return (
-    <main id="main">
-      <HeroCard data={"scale-in"} />
-      <SectionCard data={"scale-out"} />
+    <main data-inviewport={"seeing"} id="main">
+      <HeroCard />
+      <SectionCard />
     </main>
   );
 }
