@@ -5,9 +5,13 @@ import "i18next";
 function About() {
   const { t, i18n } = useTranslation();
   return (
-    <div id="about-container" className="about-container">
+    <div
+      data-inviewport={"seeing"}
+      id="about-container"
+      className="about-container"
+    >
       <img src="src/home/laptop-image.jpg" alt="" />
-      <div className="about-container-text">
+      <div data-inviewport={"fade-out"} className="about-container-text">
         <h3>{t("ABOUT ME")}</h3>
         <h2>
           <Trans i18nKey="about_title" components={{ nextLine: <br /> }} />

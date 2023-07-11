@@ -9,6 +9,7 @@ import Header from "./assets/components/Header";
 import MainCard from "./assets/components/MainCard";
 import Language from "./assets/components/Language";
 import About from "./assets/components/About";
+import Projects from "./assets/components/Projects";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -75,6 +76,7 @@ function App() {
         />
         <MainCard />
         <About />
+        <Projects />
         <Language />
       </Suspense>
     </>
