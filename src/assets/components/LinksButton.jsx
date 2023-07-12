@@ -2,7 +2,7 @@ import "./LinksButton.css";
 function LinksButton(props) {
   function showAfter(e) {
     console.log(e.target.children[1]);
-    e.target.children[1].innerText = props.name;
+    e.target.children[1].innerHTML = props.name;
     console.log(props);
   }
   return (
