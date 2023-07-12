@@ -5,6 +5,7 @@ import "i18next";
 function Header(props) {
   let styles = {
     opacity: props.navVisibility ? "1" : "0",
+    visibility: props.navVisibility ? "visible" : "hidden",
     transition: "opacity 0.15s",
   };
 
