@@ -35,6 +35,11 @@ i18n
             "An dedicated Front-end Developer. <nextLine /> Raised in São Paulo, Brazil 📍",
           about_text:
             "As a Junior Front-End Developer, I wield a robust skill set encompassing <boldLine> HTML</boldLine>,<boldLine> CSS</boldLine>,<boldLine> JavaScript</boldLine> and <boldLine> React</boldLine>. My proficiency lies in creating and maintaining responsive websites that deliver seamless user experiences. I specialize in crafting dynamic and captivating interfaces by employing clean, optimized code and leveraging state-of-the-art development tools and methodologies.",
+          PORTFOLIO: "PORTFOLIO",
+          "Each project is a unique piece of development":
+            "Each project is a unique piece of development",
+          "Projeto feito para a empresa Leiplast, foi confiado a mim antes de aprender React, usando apenas HTML e CSS para estruturar o site.":
+            "Project made for the company Leiplast, it was entrusted to me before learning React, using only HTML and CSS to structure the site.",
         },
       },
       "pt-BR": {
@@ -55,6 +60,11 @@ i18n
             "Um desenvolvedor Front-End dedicado. <nextLine /> Ambientado na capital de São Paulo - Brasil 📍",
           about_text:
             "Como um desenvolvedor Front-End, eu exerço um vasto conhecimento e habilidades em <boldLine> HTML</boldLine>,<boldLine> CSS</boldLine>,<boldLine> JavaScript</boldLine> e <boldLine> React</boldLine>. Minha proeza vem em criar e manter websites responsivos que entregam uma experiência de usuário impecável. Eu me especializo em criar interfaces dinâmicas e cativantes por uma implementação de códigos limpos, otimizados e utilizando ferramentas e metodologias de desenvolvimento de última geração.",
+          PORTFOLIO: "PORTFÓLIO",
+          "Each project is a unique piece of development":
+            "Cada projeto é uma peça única de desenvolvimento",
+          "Projeto feito para a empresa Leiplast, foi confiado a mim antes de aprender React, usando apenas HTML e CSS para estruturar o site.":
+            "Projeto feito para a empresa Leiplast, foi confiado a mim antes de aprender React, usando apenas HTML e CSS para estruturar o site.",
         },
       },
     },

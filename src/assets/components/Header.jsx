@@ -41,7 +41,11 @@ function Header(props) {
             {t("About")}
           </a>
         )}
-        {props.navVisibility && <a>{t("Projects")}</a>}
+        {props.navVisibility && (
+          <a onClick={props.click} href="#projects">
+            {t("Projects")}
+          </a>
+        )}
         {props.navVisibility && (
           <div className="languages-container">
             <img
